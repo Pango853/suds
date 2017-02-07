@@ -130,7 +130,6 @@ class Element:
         """
         self.prefix = p
         if p is not None and u is not None:
-            self.expns = None
             self.addPrefix(p, u)
         return self
 
